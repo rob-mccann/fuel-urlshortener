@@ -18,7 +18,7 @@ Make sure you copy the config file from fuel/packages/fuel-urlshortener/config/u
 	$short_url = $shortener->shorten('http://robmccann.co.uk');
 	
 	//expand a shortened url to get its long url
-	$expanded_url = $shortener->shorten('http://robm.cc/lyiAk0');
+	$expanded_url = $shortener->expand('http://robm.cc/lyiAk0');
 
 # Exceptions
 
